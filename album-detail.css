@@ -1,0 +1,31 @@
+.album-image {
+  height: 500px;
+  width: 500px;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.status {
+  height: 100px;
+}
+
+.status p:first-child {
+  margin-top: 60px;
+}
+
+.status p:first-of-type {
+  font-size: 3rem;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.button-wrapper {
+  width: 98vw;
+  text-align: center;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=album-detail.css.map */
