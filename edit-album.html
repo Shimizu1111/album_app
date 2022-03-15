@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="album-detail.css">
+  <link rel="stylesheet" href="edit-album.css">
   <title>一覧ページ</title>
 </head>
 <body>
@@ -39,18 +39,21 @@
       <form action="" method="get">
         <div class="status">
           <p>タイトル</p>
-            <label for="title">星の王子さま</label>
-            <input type="text" name="title" id="">
+          <div class="form-box">
+            <input type="text" name="title" id="" value="星の王子さま">
+          </div>
         </div>
         <div class="status">
           <p>作者</p>
-          <label for="author">サン=テグジュペリ</label>
-          <input type="text" name="author" id="">
+          <div class="form-box">
+            <input type="text" name="author" id="" value="サン=テグジュペリ">
+          </div>
         </div>
         <div class="status">
           <p>料金</p>
-          <label for="price">500円</label>
-          <input type="text" name="price" id="">
+          <div class="form-box">
+            <input type="text" name="price" id="" value="500円">
+          </div>
         </div>
         <input type="submit" value="送信する">
       </form>
